@@ -1,4 +1,4 @@
-('C:\\Users\\Administrator\\Documents\\MeusProjetos\\DeepBind\\build\\keybind\\keybind.pkg',
+('C:\\Users\\Administrator\\Documents\\MeusProjetos\\DeepBind\\build\\keybind\\DeepBind.pkg',
  {'BINARY': True,
   'DATA': True,
   'EXECUTABLE': True,
