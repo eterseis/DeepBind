@@ -1,3 +1,7 @@
 
 *.xml
 *.pyc
+*.toc
+*.zip
+*.pkg
+*.toc
