@@ -1,16 +1,2 @@
 
 *.xml
-build/keybind/Analysis-00.toc
-build/keybind/base_library.zip
-build/keybind/EXE-00.toc
-build/keybind/keybind.pkg
-build/keybind/localpycs/pyimod01_archive.pyc
-build/keybind/localpycs/pyimod02_importers.pyc
-build/keybind/localpycs/pyimod03_ctypes.pyc
-build/keybind/localpycs/pyimod04_pywin32.pyc
-build/keybind/localpycs/struct.pyc
-build/keybind/PKG-00.toc
-build/keybind/PYZ-00.pyz
-build/keybind/PYZ-00.toc
-build/keybind/warn-keybind.txt
-build/keybind/xref-keybind.html
