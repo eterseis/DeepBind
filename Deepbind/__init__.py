@@ -2,6 +2,8 @@ import keyboard
 from time import sleep
 from win32gui import GetWindowText, GetForegroundWindow
 sleep(0.3)
+
+# Keybinds
 print(r"""
 
  .-.
