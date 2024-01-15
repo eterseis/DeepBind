@@ -1,3 +1,4 @@
+import sys
 from customtkinter import *
 import keyboard
 from PIL import Image
@@ -10,7 +11,8 @@ class App:
         self.root.geometry('875x440')
         self.root.maxsize(875, 440)
         self.root.minsize(875, 440)
-        self.root.title('DeepBind 12/01/24')
+        self.root.title('DeepBind')
+        self.root.iconbitmap(rf'{os.path.dirname(sys.argv[0])}\Dependencies\eye.ico')
 
         # RoundedSh
         self.shadow = CTkFrame(self.root, fg_color='#ebe7e8', corner_radius=40, width=800, height=400, border_width=5,
@@ -23,7 +25,7 @@ class App:
         self.label = CTkLabel(self.shadow, text='DeepBind', font=self.label_font, text_color='#000000')
         self.label.place(relx=0.5, rely=0.25, anchor='s')
         # Below
-        self.img = Image.open('close-eye.png')
+        self.img = Image.open(rf'{os.path.dirname(sys.argv[0])}\Dependencies\close-eye.png', )
         self.sub_label = CTkLabel(self.shadow, text='', image=CTkImage(light_image=self.img, size=(50, 50)))
         self.sub_label.place(relx=0.5, rely=0.375, anchor='s')
 

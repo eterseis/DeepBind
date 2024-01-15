@@ -8,3 +8,9 @@
 .idea/misc.xml
 .idea/modules.xml
 .idea/vcs.xml
+build/teste/Analysis-00.toc
+*.toc
+build/teste/base_library.zip
+Deepbind/build/__init__/Tree-00.toc
+Deepbind/build/__init__/PYZ-00.pyz
+Deepbind/build/__init__/localpycs/struct.pyc
